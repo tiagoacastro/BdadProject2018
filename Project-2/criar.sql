@@ -123,7 +123,7 @@ CREATE TABLE AlbumStyle (
 -- MediaInCampaign
 DROP TABLE IF EXISTS MediaInCampaign;
 CREATE TABLE MediaInCampaign (
-    camapaign    INTEGER REFERENCES MarketingCampaign (id) NOT NULL,
+    campaign    INTEGER REFERENCES MarketingCampaign (id) NOT NULL,
     media    INTEGER REFERENCES Media (id) NOT NULL,
     PRIMARY KEY (campaign, media)
 );

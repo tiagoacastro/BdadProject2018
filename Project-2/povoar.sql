@@ -56,6 +56,7 @@ INSERT INTO Artist (id, stageName) VALUES (6,' ');
 INSERT INTO Artist (id, stageName) VALUES (7,' ');
 INSERT INTO Artist (id, stageName) VALUES (8,' ');
 INSERT INTO Artist (id, stageName) VALUES (9,' ');
+INSERT INTO Artist (id, stageName) VALUES (10,' ');
 
 
 -- Producer
@@ -195,6 +196,40 @@ INSERT INTO ArtistInSession (artist, session) VALUES (9,10);
 
 -- AlbumStyle
 
+INSERT INTO AlbumStyle (style, album) VALUES (2,3);
+INSERT INTO AlbumStyle (style, album) VALUES (3,5);
+INSERT INTO AlbumStyle (style, album) VALUES (3,6);
+INSERT INTO AlbumStyle (style, album) VALUES (1,1);
+INSERT INTO AlbumStyle (style, album) VALUES (10,7);
+INSERT INTO AlbumStyle (style, album) VALUES (7,8);
+INSERT INTO AlbumStyle (style, album) VALUES (7,2);
+INSERT INTO AlbumStyle (style, album) VALUES (4,5);
+INSERT INTO AlbumStyle (style, album) VALUES (8,9);
+INSERT INTO AlbumStyle (style, album) VALUES (6,10);
+
 -- MediaInCampaign
 
+INSERT INTO MediaInCampaign (campaign, media) VALUES (1,2);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (2,4);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (3,3);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (4,1);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (5,5);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (6,9);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (7,8);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (8,7);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (9,10);
+INSERT INTO MediaInCampaign (campaign, media) VALUES (10,6);
+
 -- ArtistInAlbum
+
+INSERT INTO ArtistInAlbum (artist, album) VALUES (2,1);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (3,2);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (4,3);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (5,4);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (6,5);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (7,6);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (8,7);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (9,8);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (10,9);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (1,10);
+
