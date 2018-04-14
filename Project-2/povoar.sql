@@ -47,30 +47,30 @@ INSERT INTO Person (id, name, dateOfBirth, nationality) VALUES (20, 'Jose', '21/
 
 -- Artist
 
-INSERT INTO Artist (id, stageName) VALUES (1,' ');
-INSERT INTO Artist (id, stageName) VALUES (2,' ');
-INSERT INTO Artist (id, stageName) VALUES (3,' ');
-INSERT INTO Artist (id, stageName) VALUES (4,' ');
-INSERT INTO Artist (id, stageName) VALUES (5,' ');
-INSERT INTO Artist (id, stageName) VALUES (6,' ');
-INSERT INTO Artist (id, stageName) VALUES (7,' ');
-INSERT INTO Artist (id, stageName) VALUES (8,' ');
-INSERT INTO Artist (id, stageName) VALUES (9,' ');
-INSERT INTO Artist (id, stageName) VALUES (10,' ');
+INSERT INTO Artist (id, stageName) VALUES (1,'xxxTentacion');
+INSERT INTO Artist (id, stageName) VALUES (2,'21 Savage');
+INSERT INTO Artist (id, stageName) VALUES (3,'Kaytranada');
+INSERT INTO Artist (id, stageName) VALUES (4,'Eminem');
+INSERT INTO Artist (id, stageName) VALUES (5,'Ice cube');
+INSERT INTO Artist (id, stageName) VALUES (6,'Tupac');
+INSERT INTO Artist (id, stageName) VALUES (7,'Lil Pump');
+INSERT INTO Artist (id, stageName) VALUES (8,'Armin Van Buuren');
+INSERT INTO Artist (id, stageName) VALUES (9,'Portugal The Man');
+INSERT INTO Artist (id, stageName) VALUES (10,'Tyler the Creator');
 
 
 -- Producer
 
-INSERT INTO Producer (id, alias) VALUES (1, ' ');
-INSERT INTO Producer (id, alias) VALUES (2, ' ');
-INSERT INTO Producer (id, alias) VALUES (3, ' ');
-INSERT INTO Producer (id, alias) VALUES (4, ' ');
-INSERT INTO Producer (id, alias) VALUES (5, ' ');
-INSERT INTO Producer (id, alias) VALUES (6, ' ');
-INSERT INTO Producer (id, alias) VALUES (7, ' ');
-INSERT INTO Producer (id, alias) VALUES (8, ' ');
-INSERT INTO Producer (id, alias) VALUES (9, ' ');
-INSERT INTO Producer (id, alias) VALUES (10, ' ');
+INSERT INTO Producer (id, alias) VALUES (1, 'a');
+INSERT INTO Producer (id, alias) VALUES (2, 'b');
+INSERT INTO Producer (id, alias) VALUES (3, 'c');
+INSERT INTO Producer (id, alias) VALUES (4, 'd');
+INSERT INTO Producer (id, alias) VALUES (5, 'e');
+INSERT INTO Producer (id, alias) VALUES (6, 'f');
+INSERT INTO Producer (id, alias) VALUES (7, 'g');
+INSERT INTO Producer (id, alias) VALUES (8, 'h');
+INSERT INTO Producer (id, alias) VALUES (9, 'i');
+INSERT INTO Producer (id, alias) VALUES (10, 'j');
 
 -- Style
 
@@ -87,16 +87,16 @@ INSERT INTO Style (id, name) VALUES (10, 'Hip Hop');
 
 -- Album
 
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (1, ' ', '06/04/2018', 1);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (2, ' ', '06/04/2018', 2);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (3, ' ', '06/04/2018', 3);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (4, ' ', '06/04/2018', 4);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (5, ' ', '06/04/2018', 5);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (6, ' ', '06/04/2018', 6);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (7, ' ', '06/04/2018', 7);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (8, ' ', '06/04/2018', 2);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (9, ' ', '06/04/2018', 3);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (10, ' ', '06/04/2018', 4);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (1, 'Recovery', '06/04/2018', 1);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (2, 'Curtain Call', '06/04/2018', 2);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (3, 'Encore', '06/04/2018', 3);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (4, 'Relapse', '06/04/2018', 4);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (5, 'Revival', '06/04/2018', 5);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (6, 'The Marshal Mathers LP2', '06/04/2018', 6);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (7, 'The Eminem Show', '06/04/2018', 7);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (8, 'The Marshal Mathers LP', '06/04/2018', 2);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (9, 'Slim Shady LP', '06/04/2018', 3);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (10, 'Infinite', '06/04/2018', 4);
 
 -- Contract
 
@@ -124,10 +124,10 @@ INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist
 -- RecordingStudio
 
 INSERT INTO RecordingStudio (id, address, rent) VALUES (1, '123 Street', 300);
-INSERT INTO RecordingStudio (id, address, rent) VALUES (2, '123 Street', 300);
-INSERT INTO RecordingStudio (id, address, rent) VALUES (3, '123 Street', 300);
-INSERT INTO RecordingStudio (id, address, rent) VALUES (4, '123 Street', 300);
-INSERT INTO RecordingStudio (id, address, rent) VALUES (5, '123 Street', 300);
+INSERT INTO RecordingStudio (id, address, rent) VALUES (2, '12 Street', 300);
+INSERT INTO RecordingStudio (id, address, rent) VALUES (3, '21 JumpStreet', 300);
+INSERT INTO RecordingStudio (id, address, rent) VALUES (4, '1234 Street', 300);
+INSERT INTO RecordingStudio (id, address, rent) VALUES (5, '12345 Street', 300);
 
 -- RecordingSession
 
@@ -158,15 +158,15 @@ INSERT INTO MonthlySales (id, monthsAfterLaunch, salesNumber, album) VALUES (10,
 -- MarketingCampaign
 
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (1, '04/06/2017', '04/09/2017', 1);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (2, '04/06/2017', '04/09/2017', 3);
+INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (2, '04/06/2015', '04/09/2015', 3);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (3, '04/06/2017', '04/09/2017', 6);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (4, '07/10/2017', '04/12/2018', 1);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (5, '04/06/2017', '04/09/2017', 7);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (6, '04/06/2017', '04/09/2017', 8);
+INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (5, '02/06/2017', '04/09/2018', 7);
+INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (6, '04/07/2017', '04/09/2017', 8);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (7, '04/06/2017', '04/09/2017', 9);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (8, '04/08/2017', '04/10/2018', 10);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (9, '04/06/2017', '04/09/2017', 1);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (10, '04/06/2017', '04/09/2017', 1);
+INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (8, '04/08/2012', '04/10/2018', 10);
+INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (9, '04/06/2003', '13/09/2004', 1);
+INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (10, '04/06/1998', '04/03/1999', 1);
 
 -- Media
 
@@ -232,4 +232,3 @@ INSERT INTO ArtistInAlbum (artist, album) VALUES (8,7);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (9,8);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (10,9);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (1,10);
-
