@@ -30,7 +30,7 @@ CREATE TABLE Producer (
     alias    STRING
 );
 
--- Album 
+-- Album
 DROP TABLE IF EXISTS Album;
 CREATE TABLE Album (
     id    INTEGER PRIMARY KEY,

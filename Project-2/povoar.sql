@@ -120,6 +120,8 @@ INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (18, '04/06/2017', 15, 50, NULL, 8);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (19, '04/06/2017', 15, 50, NULL, 9);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (20, '04/06/2017', 15, 50, NULL, 10);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (21, '04/06/2017', 15, 50, 9, 9);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (22, '04/06/2017', 15, 50, 10, 10);
 
 -- RecordingStudio
 
