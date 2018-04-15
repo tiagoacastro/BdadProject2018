@@ -9647,7 +9647,7 @@
 							"width": 70,
 							"height": 103,
 							"autoResize": false,
-							"text": "Starting hour must be smaller than ending hour",
+							"text": "Starting hour must be previous to ending hour",
 							"wordWrap": true
 						},
 						{
@@ -9694,7 +9694,7 @@
 							"width": 70,
 							"height": 103,
 							"autoResize": false,
-							"text": "Starting date must be smaller than ending date",
+							"text": "Starting date must be previous to ending date",
 							"wordWrap": true
 						},
 						{
