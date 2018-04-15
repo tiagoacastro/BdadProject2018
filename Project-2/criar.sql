@@ -84,7 +84,8 @@ CREATE TABLE MonthlySales (
     id    INTEGER PRIMARY KEY,
     monthsAfterLaunch    INTEGER NOT NULL,
     salesNumber    INTEGER NOT NULL,
-    album    INTEGER REFERENCES Album (id) NOT NULL
+    album    INTEGER REFERENCES Album (id) NOT NULL,
+    UNIQUE (monthAfterLaunch, album)
 );
 
 -- MarketingCampaign
@@ -93,7 +94,8 @@ CREATE TABLE MarketingCampaign (
     id    INTEGER PRIMARY KEY,
     startingDate    DATE,
     endingDate    DATE,
-    album    INTEGER REFERENCES Album (id) NOT NULL
+    album    INTEGER REFERENCES Album (id) NOT NULL,
+    UNIQUE (startingDate, endingDate, album)
 );
 
 -- Media
