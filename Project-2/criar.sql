@@ -85,7 +85,7 @@ CREATE TABLE MonthlySales (
     monthsAfterLaunch    INTEGER NOT NULL,
     salesNumber    INTEGER NOT NULL,
     album    INTEGER REFERENCES Album (id) NOT NULL,
-    UNIQUE (monthAfterLaunch, album)
+    UNIQUE (monthsAfterLaunch, album)
 );
 
 -- MarketingCampaign
