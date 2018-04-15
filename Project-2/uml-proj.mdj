@@ -9553,7 +9553,7 @@
 							"width": 75.65625,
 							"height": 90,
 							"autoResize": false,
-							"text": "The launching  date can't be previous to 1910.",
+							"text": "-The launching  date can't be previous to 1910.",
 							"wordWrap": true
 						},
 						{
@@ -9600,7 +9600,7 @@
 							"width": 81,
 							"height": 116,
 							"autoResize": false,
-							"text": "The duration of a contract must be smaller than 20 years.",
+							"text": "-The duration of a contract must be smaller than 20 years.",
 							"wordWrap": true
 						},
 						{
@@ -9647,7 +9647,7 @@
 							"width": 70,
 							"height": 103,
 							"autoResize": false,
-							"text": "Starting hour must be previous to ending hour",
+							"text": "-Starting hour must be previous to ending hour.",
 							"wordWrap": true
 						},
 						{
@@ -9689,12 +9689,12 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
-							"left": 608,
-							"top": 600,
-							"width": 70,
-							"height": 103,
+							"left": 520,
+							"top": 592,
+							"width": 158,
+							"height": 107,
 							"autoResize": false,
-							"text": "Starting date must be previous to ending date",
+							"text": "-Starting date must be previous to ending date.\n\n-There can't be two Marketing Campaigns for the same Album at the same time.",
 							"wordWrap": true
 						},
 						{
@@ -9719,7 +9719,7 @@
 								"$ref": "AAAAAAFiv7FXZXBPIj0="
 							},
 							"lineStyle": 1,
-							"points": "678:651;711:652"
+							"points": "678:648;711:649"
 						}
 					]
 				},
