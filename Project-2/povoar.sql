@@ -87,16 +87,16 @@ INSERT INTO Style (id, name) VALUES (10, 'Hip Hop');
 
 -- Album
 
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (1, 'Recovery', '06/04/2018', 1);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (2, 'Curtain Call', '06/04/2018', 2);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (3, 'Encore', '06/04/2018', 3);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (4, 'Relapse', '06/04/2018', 4);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (5, 'Revival', '06/04/2018', 5);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (6, 'The Marshal Mathers LP2', '06/04/2018', 6);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (7, 'The Eminem Show', '06/04/2018', 7);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (8, 'The Marshal Mathers LP', '06/04/2018', 2);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (9, 'Slim Shady LP', '06/04/2018', 3);
-INSERT INTO Album (id, title, releaseDate, producer) VALUES (10, 'Infinite', '06/04/2018', 4);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (1, 'Recovery', '06/04/2018', 11);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (2, 'Curtain Call', '06/04/2018', 12);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (3, 'Encore', '06/04/2018', 13);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (4, 'Relapse', '06/04/2018', 14);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (5, 'Revival', '06/04/2018', 15);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (6, 'The Marshal Mathers LP2', '06/04/2018', 16);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (7, 'The Eminem Show', '06/04/2018', 17);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (8, 'The Marshal Mathers LP', '06/04/2018', 12);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (9, 'Slim Shady LP', '06/04/2018', 13);
+INSERT INTO Album (id, title, releaseDate, producer) VALUES (10, 'Infinite', '06/04/2018', 14);
 
 -- Contract
 
