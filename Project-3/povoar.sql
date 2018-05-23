@@ -135,7 +135,7 @@ INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album)
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (2, '3/9/2016', '3:00:00', '5:59:00', 2, 2);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (3, '5/8/2015', '5:00:00', '7:59:00', 3, 3);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (4, '7/7/2014', '7:00:00', '9:59:00', 4, 4);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '9/6/2013', '9:00:00', '11:59:00', 5, 5);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '9/6/2013', '4:00:00', '6:59:00', 5, 5);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (6, '11/5/2012', '11:00:00', '13:59:00', 5, 6);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (7, '13/4/2011', '13:00:00', '15:59:00', 4, 7);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (8, '15/3/2010', '15:00:00', '17:59:00', 3, 8);
