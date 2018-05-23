@@ -5,4 +5,4 @@ DELETE:
 - after delete style, delete todas as relaçoes com albuns
 
 UPDATE:
-- before update person, ter a certeza que tem pelo menos 18 anos
+- before update recording session, ter a certeza que a data é antes do lançamento do album
