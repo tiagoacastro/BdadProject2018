@@ -1,14 +1,8 @@
-INSERTS:
-- before insert artista, ver se existe pessoa
+INSERT
 - before insert contrato, ver se nao tem artista e produtor ao mesmo tempo
-- before insert monthly sale, ter a certeza que ja nao existe um para o mesmo mes
 
-DELETES:
--
--
--
+DELETE:
+- after delete style, delete todas as relaçoes com albuns
 
-UPDATES:
--
--
--
+UPDATE:
+- before update person, ter a certeza que tem pelo menos 18 anos
