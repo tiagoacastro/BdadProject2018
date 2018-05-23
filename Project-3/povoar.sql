@@ -79,11 +79,6 @@ INSERT INTO Style (id, name) VALUES (2, 'Rock');
 INSERT INTO Style (id, name) VALUES (3, 'Electronic');
 INSERT INTO Style (id, name) VALUES (4, 'K-Pop');
 INSERT INTO Style (id, name) VALUES (5, 'Indie');
-INSERT INTO Style (id, name) VALUES (6, 'Alternative');
-INSERT INTO Style (id, name) VALUES (7, 'Punk');
-INSERT INTO Style (id, name) VALUES (8, 'Jazz');
-INSERT INTO Style (id, name) VALUES (9, 'Instrumental');
-INSERT INTO Style (id, name) VALUES (10, 'Hip Hop');
 
 -- Album
 
@@ -135,7 +130,7 @@ INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album)
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (2, '3/9/2016', '3:00:00', '5:59:00', 2, 2);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (3, '5/8/2015', '5:00:00', '7:59:00', 3, 3);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (4, '7/7/2014', '7:00:00', '9:59:00', 4, 4);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '9/6/2013', '4:00:00', '6:59:00', 5, 5);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '9/6/2013', '9:00:00', '11:59:00', 5, 5);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (6, '11/5/2012', '11:00:00', '13:59:00', 5, 6);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (7, '13/4/2011', '13:00:00', '15:59:00', 4, 7);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (8, '15/3/2010', '15:00:00', '17:59:00', 3, 8);
@@ -196,16 +191,16 @@ INSERT INTO ArtistInSession (artist, session) VALUES (9,10);
 
 -- AlbumStyle
 
-INSERT INTO AlbumStyle (style, album) VALUES (2,3);
-INSERT INTO AlbumStyle (style, album) VALUES (3,5);
-INSERT INTO AlbumStyle (style, album) VALUES (3,6);
 INSERT INTO AlbumStyle (style, album) VALUES (1,1);
-INSERT INTO AlbumStyle (style, album) VALUES (10,7);
-INSERT INTO AlbumStyle (style, album) VALUES (7,8);
-INSERT INTO AlbumStyle (style, album) VALUES (7,2);
-INSERT INTO AlbumStyle (style, album) VALUES (4,5);
-INSERT INTO AlbumStyle (style, album) VALUES (8,9);
-INSERT INTO AlbumStyle (style, album) VALUES (6,10);
+INSERT INTO AlbumStyle (style, album) VALUES (1,2);
+INSERT INTO AlbumStyle (style, album) VALUES (3,3);
+INSERT INTO AlbumStyle (style, album) VALUES (4,4);
+INSERT INTO AlbumStyle (style, album) VALUES (5,5);
+INSERT INTO AlbumStyle (style, album) VALUES (1,6);
+INSERT INTO AlbumStyle (style, album) VALUES (2,7);
+INSERT INTO AlbumStyle (style, album) VALUES (3,8);
+INSERT INTO AlbumStyle (style, album) VALUES (4,9);
+INSERT INTO AlbumStyle (style, album) VALUES (5,10);
 
 -- MediaInCampaign
 
