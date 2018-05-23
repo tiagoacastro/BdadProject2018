@@ -1,2 +1,14 @@
+INSERTS:
 - before insert artista, ver se existe pessoa
-- 
+- before insert contrato, ver se nao tem artista e produtor ao mesmo tempo
+- before insert monthly sale, ter a certeza que ja nao existe um para o mesmo mes
+
+DELETES:
+-
+-
+-
+
+UPDATES:
+-
+-
+-
