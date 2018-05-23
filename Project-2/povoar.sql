@@ -61,16 +61,16 @@ INSERT INTO Artist (id, stageName) VALUES (10,'Tyler the Creator');
 
 -- Producer
 
-INSERT INTO Producer (id, alias) VALUES (1, 'a');
-INSERT INTO Producer (id, alias) VALUES (2, 'b');
-INSERT INTO Producer (id, alias) VALUES (3, 'c');
-INSERT INTO Producer (id, alias) VALUES (4, 'd');
-INSERT INTO Producer (id, alias) VALUES (5, 'e');
-INSERT INTO Producer (id, alias) VALUES (6, 'f');
-INSERT INTO Producer (id, alias) VALUES (7, 'g');
-INSERT INTO Producer (id, alias) VALUES (8, 'h');
-INSERT INTO Producer (id, alias) VALUES (9, 'i');
-INSERT INTO Producer (id, alias) VALUES (10, 'j');
+INSERT INTO Producer (id, alias) VALUES (11, 'Arnold');
+INSERT INTO Producer (id, alias) VALUES (12, 'Schwarzneger');
+INSERT INTO Producer (id, alias) VALUES (13, 'Silvester');
+INSERT INTO Producer (id, alias) VALUES (14, 'Stalone');
+INSERT INTO Producer (id, alias) VALUES (15, 'Dolph');
+INSERT INTO Producer (id, alias) VALUES (16, 'Lundgren');
+INSERT INTO Producer (id, alias) VALUES (17, 'Jason');
+INSERT INTO Producer (id, alias) VALUES (18, 'Statham');
+INSERT INTO Producer (id, alias) VALUES (19, 'Bruce');
+INSERT INTO Producer (id, alias) VALUES (20, 'Lee');
 
 -- Style
 
@@ -120,8 +120,6 @@ INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (18, '04/06/2017', 15, 50, NULL, 8);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (19, '04/06/2017', 15, 50, NULL, 9);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (20, '04/06/2017', 15, 50, NULL, 10);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (21, '04/06/2017', 15, 50, 9, 9);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (22, '04/06/2017', 15, 50, 10, 10);
 
 -- RecordingStudio
 
@@ -133,16 +131,16 @@ INSERT INTO RecordingStudio (id, address, rent) VALUES (5, '12345 Street', 300);
 
 -- RecordingSession
 
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (1, '2/3/2017', '22:00:00', '23:59:00', 1, 1);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (2, '2/3/2017', '22:00:00', '23:59:00', 1, 2);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (3, '2/3/2017', '22:00:00', '23:59:00', 1, 3);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (4, '2/3/2017', '22:00:00', '23:59:00', 1, 4);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '2/3/2017', '22:00:00', '23:59:00', 1, 5);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (6, '2/3/2017', '22:00:00', '23:59:00', 1, 6);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (7, '2/3/2017', '22:00:00', '23:59:00', 1, 7);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (8, '2/3/2017', '22:00:00', '23:59:00', 1, 8);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (9, '2/3/2017', '22:00:00', '23:59:00', 1, 9);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (10, '2/3/2017', '22:00:00', '23:59:00', 1, 10);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (1, '1/10/2017', '1:00:00', '3:59:00', 1, 1);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (2, '3/9/2016', '3:00:00', '5:59:00', 2, 2);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (3, '5/8/2015', '5:00:00', '7:59:00', 3, 3);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (4, '7/7/2014', '7:00:00', '9:59:00', 4, 4);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '9/6/2013', '9:00:00', '11:59:00', 5, 5);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (6, '11/5/2012', '11:00:00', '13:59:00', 5, 6);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (7, '13/4/2011', '13:00:00', '15:59:00', 4, 7);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (8, '15/3/2010', '15:00:00', '17:59:00', 3, 8);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (9, '17/2/2011', '17:00:00', '19:59:00', 2, 9);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (10, '19/1/2012', '19:00:00', '21:59:00', 1, 10);
 
 -- Monthly Sales
 
