@@ -1,4 +1,4 @@
-INSERT
+INSERT:
 - before insert contrato, ver se nao tem artista e produtor ao mesmo tempo
 
 DELETE:
