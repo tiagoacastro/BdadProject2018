@@ -1,8 +1,8 @@
-INSERT:
+﻿INSERT:
 - before insert contrato, ver se nao tem artista e produtor ao mesmo tempo
 
 DELETE:
-- after delete style, delete todas as relaçoes com albuns
+- after delete artist, ter a certeza que todos os albuns e recording sessions têm pelo menos 1 artista
 
 UPDATE:
 - before update recording session, ter a certeza que a data é antes do lançamento do album
