@@ -95,26 +95,26 @@ INSERT INTO Album (id, title, releaseDate, producer) VALUES (10, 'Infinite', '06
 
 -- Contract
 
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (1, '04/06/2017', 15, 50, 11, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (2, '04/06/2017', 15, 50, 12, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (3, '04/06/2017', 15, 50, 13, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (4, '04/06/2017', 15, 50, 14, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (5, '04/06/2017', 15, 50, 15, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (6, '04/06/2017', 15, 50, 16, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (7, '04/06/2017', 15, 50, 17, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (8, '04/06/2017', 15, 50, 18, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (9, '04/06/2017', 15, 50, 19, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (10, '04/06/2017', 15, 50, 20, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (11, '04/06/2017', 15, 50, NULL, 1);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (12, '04/06/2017', 15, 50, NULL, 2);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (13, '04/06/2017', 15, 50, NULL, 3);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (14, '04/06/2017', 15, 50, NULL, 4);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (15, '04/06/2017', 15, 50, NULL, 5);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (16, '04/06/2017', 15, 50, NULL, 6);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (17, '04/06/2017', 15, 50, NULL, 7);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (18, '04/06/2017', 15, 50, NULL, 8);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (19, '04/06/2017', 15, 50, NULL, 9);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (20, '04/06/2017', 15, 50, NULL, 10);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (1, '2019-06-04', 15, 50, 11, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (2, '2017-06-04', 15, 50, 12, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (3, '2017-06-04', 15, 50, 13, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (4, '2017-06-04', 15, 50, 14, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (5, '2017-06-04', 15, 50, 15, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (6, '2017-06-04', 15, 50, 16, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (7, '2017-06-04', 15, 50, 17, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (8, '2017-06-04', 15, 50, 18, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (9, '2017-06-04', 15, 50, 19, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (10, '2017-06-04', 15, 50, 20, NULL);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (11, '2017-06-04', 15, 50, NULL, 1);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (12, '2017-06-04', 15, 50, NULL, 2);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (13, '2017-06-04', 15, 50, NULL, 3);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (14, '2017-06-04', 15, 50, NULL, 4);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (15, '2017-06-04', 15, 50, NULL, 5);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (16, '2017-06-04', 15, 50, NULL, 6);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (17, '2017-06-04', 15, 50, NULL, 7);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (18, '2017-06-04', 15, 50, NULL, 8);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (19, '2017-06-04', 15, 50, NULL, 9);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (20, '2017-06-04', 15, 50, NULL, 10);
 
 -- RecordingStudio
 
@@ -152,7 +152,7 @@ INSERT INTO MonthlySales (id, monthsAfterLaunch, salesNumber, album) VALUES (10,
 
 -- MarketingCampaign
 
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (1, '04/06/2017', '04/09/2017', 1);
+INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (1, '2017-06-04', '04/09/2017', 1);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (2, '04/06/2015', '04/09/2015', 3);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (3, '04/06/2017', '04/09/2017', 6);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (4, '07/10/2017', '04/12/2018', 4);
