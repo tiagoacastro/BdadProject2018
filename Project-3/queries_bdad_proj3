@@ -1,10 +1,10 @@
-- todos os albuns de um artista (done)
-- contratos realizados entre dois anos
-- as vendas de um determinado album num determinado mes
-- numero de locais nos quais um album foi gravado
-- todos as sales de um mes de um determinado estilo 
-- numero de artista de um determinada nacionalidade
-- numero de horas de gravacao de um determinado album
-- todos os meios (nome) utilizados nas marketing campaigns de um determinado album
-- numero de albuns criados por artistas de um determinada nacionalidade
-- duracao restante de um contrato com um artista
+- todos os albuns de um artista - 1                                                   - deslocado
+- contratos realizados entre duas datas - 2
+- quais os artistas que gravaram em todos os estúdios - 3
+- segundo artista com o maior sales number - 4                                        - castro
+- sales totais de um mes de um determinado estilo - 5                                 - castro
+- album mais vendido de um artista - 6                                                - castro
+- numero de horas de gravacao de um determinado album - 7
+- artistas sem gravações durante 2 anos - 8
+- numero de albuns criados por artistas de um determinada nacionalidade -9
+- duracao restante de todos os contrato com um artista - 10
