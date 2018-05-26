@@ -227,3 +227,5 @@ INSERT INTO ArtistInAlbum (artist, album) VALUES (8,7);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (9,8);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (10,9);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (1,10);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (2,5);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (2,3);
