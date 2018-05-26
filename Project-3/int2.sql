@@ -6,6 +6,6 @@
 
 select id , dateOfSignature
 from Contract	
-where strftime('%Y' , dateOfSignature) >= '2016'
-	and strftime('%Y' , dateOfSignature) < '2018';
+where strftime('%Y' , dateOfSignature) >= '1962'
+	and strftime('%Y' , dateOfSignature) < '1964';
 
