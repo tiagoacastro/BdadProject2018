@@ -1,8 +1,8 @@
 ﻿INSERT:
-- before insert contrato, ver se nao tem artista e produtor ao mesmo tempo
+- before insert contrato, ver se nao tem artista e produtor ao mesmo tempo                                  - castro
 
 DELETE:
-- after delete artist, ter a certeza que todos os albuns e recording sessions têm pelo menos 1 artista
+- after delete artist, ter a certeza que todos os albuns e recording sessions têm pelo menos 1 artista      - mariana
 
 UPDATE:
-- before update recording session, ter a certeza que a data é antes do lançamento do album
+- before update recording session, ter a certeza que a data é antes do lançamento do album                  - deslocado
