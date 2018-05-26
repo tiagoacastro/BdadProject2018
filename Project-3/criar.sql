@@ -68,7 +68,7 @@ CREATE TABLE RecordingSession (
     endingHour    TIME,
     studio    INTEGER REFERENCES RecordingStudio (id) NOT NULL,
     album    INTEGER REFERENCES Album (id) NOT NULL
-    --CHECK(startingHour < endingHour)
+    CHECK(startingHour < endingHour)
 );
 
 -- Style

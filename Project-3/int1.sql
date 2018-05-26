@@ -1,10 +1,10 @@
-
 .mode	columns
 .headers	on
 .nullvalue	NULL
 
-select title as AlbumsList
-from Artist , Album , ArtistInAlbum
-where ArtistInAlbum.artist = Artist.id 
-	and ArtistInAlbum.album = Album.id
-	and Artist.id = '2';
+--albuns do artista '21 Savage'
+SELECT title AS AlbumsList
+FROM Artist , Album , ArtistInAlbum
+WHERE ArtistInAlbum.artist = Artist.id
+AND ArtistInAlbum.album = Album.id
+AND Artist.stageName LIKE '21 Savage';
