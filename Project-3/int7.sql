@@ -1,4 +1,4 @@
---- numero de horas de gravacao de um determinado album - 7
+-- numero de horas de gravacao de todos os álbuns
 
 SELECT albumID, sum(recordingTime)
 FROM 
