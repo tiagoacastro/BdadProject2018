@@ -1,11 +1,10 @@
--- before delete artist, apagar todos os albuns e recording sessions compostas unicamente por esse artista
-
 .mode columns
 .header on
 .nullvalue NULL
 
 PRAGMA foreign_keys = ON;
 
+-- before delete artist, apagar todos os albuns e recording sessions compostas unicamente por esse artista
 CREATE TRIGGER IF NOT EXISTS VerificaMinArtists
 BEFORE DELETE ON Artist
 FOR EACH ROW
@@ -16,9 +15,9 @@ BEGIN
     FROM ArtistInAlbum AA1
     WHERE AA1.album IN (
         SELECT AA.album
-        FROM 
+        FROM
           ArtistInAlbum AA,
-          Artist A 
+          Artist A
         WHERE AA.artist = A.id AND A.id = OLD.id
         )
     GROUP BY AA1.album
@@ -30,9 +29,9 @@ BEGIN
     FROM ArtistInSession AIS
     WHERE AIS.sessionNum IN (
         SELECT AIS1.sessionNum
-        FROM 
+        FROM
           ArtistInSession AIS1,
-          Artist A 
+          Artist A
         WHERE AIS1.artist = A.id AND A.id = OLD.id
         )
     GROUP BY AIS.sessionNum
@@ -40,4 +39,3 @@ BEGIN
   );
 
 END;
-

@@ -1,8 +1,11 @@
--- quais os artistas que gravaram em todos os estúdios - 3
+.mode	columns
+.headers	on
+.nullvalue	NULL
 
+-- quais os artistas que gravaram em todos os estúdios - 3
 SELECT A.stageName, count(DISTINCT RS.studio) AS numStudios
 FROM Artist A, ArtistInSession AIS, RecordingSession RS, RecordingStudio RT
-WHERE 
+WHERE
   A.id = AIS.artist
   AND
   RS.id = AIS.sessionNum
@@ -13,4 +16,3 @@ HAVING numStudios = (
     SELECT count(RT1.id)
     FROM RecordingStudio RT1
 );
- 

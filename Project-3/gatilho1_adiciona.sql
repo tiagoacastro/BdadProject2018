@@ -4,6 +4,7 @@
 
 PRAGMA foreign_keys = ON;
 
+--before insert contrato, ver se nao tem artista e produtor ao mesmo tempo ou nenhum dos dois
 CREATE TRIGGER IF NOT EXISTS AdicionaContract
 BEFORE INSERT ON Contract
 FOR EACH ROW

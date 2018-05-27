@@ -18,10 +18,8 @@ where id = 1;
 
 UPDATE RecordingSession SET date = '1998-06-20' WHERE RecordingSession.id = 1;
 
-
 .print ''
 
 select 	id , date
 from RecordingSession
 where id = 1;
-
