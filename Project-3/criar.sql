@@ -6,7 +6,7 @@ CREATE TABLE Person (
     id    INTEGER PRIMARY KEY,
     name    STRING NOT NULL,
     dateOfBirth    DATE NOT NULL,
-    nationality    INTEGER REFERENCES Nationality (id) NOT NULL
+    nationality    INTEGER REFERENCES Nationality (id) ON DELETE CASCADE
 );
 
 -- Nationality
@@ -46,8 +46,8 @@ CREATE TABLE Contract (
     dateOfSignature    DATE,
     duration    INTEGER NOT NULL CHECK(duration < 20),
     royalties    INTEGER NOT NULL,
-    producer    INTEGER REFERENCES Producer (id),
-    artist    INTEGER REFERENCES Artist (id),
+    producer    INTEGER REFERENCES Producer (id) ON DELETE CASCADE,
+    artist    INTEGER REFERENCES Artist (id) ON DELETE CASCADE,
     CHECK (producer NOT NULL or artist NOT NULL)
 );
 
@@ -66,8 +66,8 @@ CREATE TABLE RecordingSession (
     date    DATE,
     startingHour    TIME,
     endingHour    TIME,
-    studio    INTEGER REFERENCES RecordingStudio (id) NOT NULL,
-    album    INTEGER REFERENCES Album (id) NOT NULL
+    studio    INTEGER REFERENCES RecordingStudio (id) ON DELETE CASCADE,
+    album    INTEGER REFERENCES Album (id) ON DELETE CASCADE,
     CHECK(startingHour < endingHour)
 );
 
@@ -84,7 +84,7 @@ CREATE TABLE MonthlySales (
     id    INTEGER PRIMARY KEY,
     monthsAfterLaunch    INTEGER NOT NULL,
     salesNumber    INTEGER NOT NULL,
-    album    INTEGER REFERENCES Album (id) NOT NULL,
+    album    INTEGER REFERENCES Album (id) ON DELETE CASCADE,
     UNIQUE (monthsAfterLaunch, album)
 );
 
@@ -94,7 +94,7 @@ CREATE TABLE MarketingCampaign (
     id    INTEGER PRIMARY KEY,
     startingDate    DATE,
     endingDate    DATE,
-    album    INTEGER REFERENCES Album (id) NOT NULL,
+    album    INTEGER REFERENCES Album (id) ON DELETE CASCADE,
     UNIQUE (startingDate, endingDate, album)
 );
 
@@ -109,31 +109,31 @@ CREATE TABLE Media (
 -- ArtistInSession
 DROP TABLE IF EXISTS ArtistInSession;
 CREATE TABLE ArtistInSession (
-    artist    INTEGER REFERENCES Artist (id) NOT NULL,
-    session    INTEGER REFERENCES RecordingSession (id) NOT NULL,
+    artist    INTEGER REFERENCES Artist (id) ON DELETE CASCADE,
+    session    INTEGER REFERENCES RecordingSession (id) ON DELETE CASCADE,
     PRIMARY KEY (artist, session)
 );
 
 -- AlbumStyle
 DROP TABLE IF EXISTS AlbumStyle;
 CREATE TABLE AlbumStyle (
-    style    INTEGER REFERENCES Style (id) NOT NULL,
-    album    INTEGER REFERENCES Album (id) NOT NULL,
+    style    INTEGER REFERENCES Style (id) ON DELETE CASCADE,
+    album    INTEGER REFERENCES Album (id) ON DELETE CASCADE,
     PRIMARY KEY (style, album)
 );
 
 -- MediaInCampaign
 DROP TABLE IF EXISTS MediaInCampaign;
 CREATE TABLE MediaInCampaign (
-    campaign    INTEGER REFERENCES MarketingCampaign (id) NOT NULL,
-    media    INTEGER REFERENCES Media (id) NOT NULL,
+    campaign    INTEGER REFERENCES MarketingCampaign (id) ON DELETE CASCADE,
+    media    INTEGER REFERENCES Media (id) ON DELETE CASCADE,
     PRIMARY KEY (campaign, media)
 );
 
 -- ArtistInAlbum
 DROP TABLE IF EXISTS ArtistInAlbum;
 CREATE TABLE ArtistInAlbum (
-    artist    INTEGER REFERENCES Artist (id) NOT NULL,
-    album    INTEGER REFERENCES Album (id) NOT NULL,
+    artist    INTEGER REFERENCES Artist (id) ON DELETE CASCADE,
+    album    INTEGER REFERENCES Album (id) ON DELETE CASCADE,
     PRIMARY KEY (artist, album)
 );

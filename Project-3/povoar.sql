@@ -254,6 +254,8 @@ INSERT INTO MediaInCampaign (campaign, media) VALUES (10,6);
 -- ArtistInAlbum
 
 INSERT INTO ArtistInAlbum (artist, album) VALUES (2,1);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (3,1);
+INSERT INTO ArtistInAlbum (artist, album) VALUES (4,1);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (3,2);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (4,3);
 INSERT INTO ArtistInAlbum (artist, album) VALUES (5,4);
