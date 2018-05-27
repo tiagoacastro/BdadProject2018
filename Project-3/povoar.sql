@@ -128,14 +128,18 @@ INSERT INTO RecordingStudio (id, address, rent) VALUES (5, '12345 Street', 300);
 
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (1, '1987-06-21', '01:00:00', '03:59:00', 1, 1);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (2, '1988-06-21', '03:00:00', '05:59:00', 2, 2);
+--new
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (11, '1988-06-22', '03:00:00', '05:59:00', 2, 2);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (12, '1988-06-23', '03:00:00', '05:59:00', 2, 2);
+--
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (3, '1989-06-21', '05:00:00', '07:59:00', 3, 3);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (4, '1981-06-21', '07:00:00', '09:59:00', 4, 4);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '1982-06-21', '07:00:00', '10:00:00', 5, 5);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (6, '1980-06-21', '11:00:00', '13:59:00', 5, 6);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (5, '1982-06-21', '07:00:00', '12:00:00', 5, 5);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (6, '1980-06-21', '11:00:00', '12:59:00', 5, 6);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (7, '1988-06-21', '13:00:00', '15:59:00', 4, 7);
 INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (8, '1988-06-21', '15:00:00', '17:59:00', 3, 8);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (9, '1982-06-21', '17:00:00', '19:59:00', 2, 9);
-INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (10, '1981-06-21', '19:00:00', '21:59:00', 1, 10);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (9, '1982-06-21', '17:00:00', '20:59:00', 2, 9);
+INSERT INTO RecordingSession (id, date, startingHour, endingHour, studio, album) VALUES (10, '1981-06-21', '19:00:00', '23:59:00', 1, 10);
 
 -- Monthly Sales
 
