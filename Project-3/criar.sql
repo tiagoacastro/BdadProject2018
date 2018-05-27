@@ -6,7 +6,7 @@ CREATE TABLE Person (
     id    INTEGER PRIMARY KEY,
     name    STRING NOT NULL,
     dateOfBirth    DATE NOT NULL,
-    nationality    INTEGER REFERENCES Nationality (id) ON DELETE CASCADE
+    nationality    INTEGER REFERENCES Nationality (id) NOT NULL
 );
 
 -- Nationality
@@ -110,8 +110,8 @@ CREATE TABLE Media (
 DROP TABLE IF EXISTS ArtistInSession;
 CREATE TABLE ArtistInSession (
     artist    INTEGER REFERENCES Artist (id) ON DELETE CASCADE,
-    session    INTEGER REFERENCES RecordingSession (id) ON DELETE CASCADE,
-    PRIMARY KEY (artist, session)
+    sessionNum    INTEGER REFERENCES RecordingSession (id) ON DELETE CASCADE,
+    PRIMARY KEY (artist, sessionNum)
 );
 
 -- AlbumStyle

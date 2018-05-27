@@ -94,29 +94,6 @@ INSERT INTO Album (id, title, releaseDate, producer) VALUES (9, 'Slim Shady LP',
 INSERT INTO Album (id, title, releaseDate, producer) VALUES (10, 'Infinite', '2018-03-21', 14);
 
 -- Contract
-
-<<<<<<< HEAD
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (1, '2019-06-04', 15, 50, 11, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (2, '2017-06-04', 15, 50, 12, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (3, '2017-06-04', 15, 50, 13, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (4, '2017-06-04', 15, 50, 14, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (5, '2017-06-04', 15, 50, 15, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (6, '2017-06-04', 15, 50, 16, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (7, '2017-06-04', 15, 50, 17, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (8, '2017-06-04', 15, 50, 18, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (9, '2017-06-04', 15, 50, 19, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (10, '2017-06-04', 15, 50, 20, NULL);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (11, '2017-06-04', 15, 50, NULL, 1);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (12, '2017-06-04', 15, 50, NULL, 2);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (13, '2017-06-04', 15, 50, NULL, 3);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (14, '2017-06-04', 15, 50, NULL, 4);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (15, '2017-06-04', 15, 50, NULL, 5);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (16, '2017-06-04', 15, 50, NULL, 6);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (17, '2017-06-04', 15, 50, NULL, 7);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (18, '2017-06-04', 15, 50, NULL, 8);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (19, '2017-06-04', 15, 50, NULL, 9);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (20, '2017-06-04', 15, 50, NULL, 10);
-=======
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (1, '1961-06-21', 15, 50, 11, NULL);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (2, '1962-06-21', 15, 50, 12, NULL);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (3, '1963-06-21', 15, 50, 13, NULL);
@@ -137,7 +114,7 @@ INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (18, '1999-06-21', 15, 50, NULL, 8);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (19, '1998-04-18', 15, 50, NULL, 9);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (20, '2015-06-11', 15, 50, NULL, 10);
->>>>>>> master
+
 
 -- RecordingStudio
 
@@ -174,19 +151,6 @@ INSERT INTO MonthlySales (id, monthsAfterLaunch, salesNumber, album) VALUES (9, 
 INSERT INTO MonthlySales (id, monthsAfterLaunch, salesNumber, album) VALUES (10, 3, 9323, 5);
 
 -- MarketingCampaign
-
-<<<<<<< HEAD
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (1, '2017-06-04', '04/09/2017', 1);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (2, '04/06/2015', '04/09/2015', 3);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (3, '04/06/2017', '04/09/2017', 6);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (4, '07/10/2017', '04/12/2018', 4);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (5, '02/06/2017', '04/09/2018', 7);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (6, '04/07/2017', '04/09/2017', 8);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (7, '04/06/2017', '04/09/2017', 9);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (8, '04/08/2012', '04/10/2018', 10);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (9, '04/06/2003', '13/09/2004', 1);
-INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (10, '04/06/1998', '04/03/1999', 3);
-=======
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (1, '1988-06-21', '1989-06-21', 1);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (2, '1988-06-21', '1989-06-21', 3);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (3, '1988-06-21', '1989-06-21', 6);
@@ -197,7 +161,6 @@ INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (7, '
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (8, '1988-06-21', '1989-06-21', 10);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (9, '1978-06-21', '1988-06-21', 1);
 INSERT INTO MarketingCampaign (id, startingDate, endingDate, album) VALUES (10, '1978-06-21', '1988-06-21', 3);
->>>>>>> master
 
 -- Media
 
@@ -214,16 +177,18 @@ INSERT INTO Media (id, name, type) VALUES (10,'TSF', 'Radio');
 
 -- ArtistsInSession
 
-INSERT INTO ArtistInSession (artist, session) VALUES (1,1);
-INSERT INTO ArtistInSession (artist, session) VALUES (2,2);
-INSERT INTO ArtistInSession (artist, session) VALUES (3,3);
-INSERT INTO ArtistInSession (artist, session) VALUES (4,4);
-INSERT INTO ArtistInSession (artist, session) VALUES (6,5);
-INSERT INTO ArtistInSession (artist, session) VALUES (6,6);
-INSERT INTO ArtistInSession (artist, session) VALUES (4,7);
-INSERT INTO ArtistInSession (artist, session) VALUES (5,8);
-INSERT INTO ArtistInSession (artist, session) VALUES (7,9);
-INSERT INTO ArtistInSession (artist, session) VALUES (9,10);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (1,1);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (2,2);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (3,3);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (4,4);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (6,5);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (6,6);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (1,6);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (4,7);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (5,8);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (7,9);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (1,9);
+INSERT INTO ArtistInSession (artist, sessionNum) VALUES (9,10);
 
 -- AlbumStyle
 
