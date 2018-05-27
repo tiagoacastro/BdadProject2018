@@ -2,7 +2,7 @@
 .headers	on
 .nullvalue	NULL
 
--- quais os artistas que gravaram em todos os estúdios - 3
+-- quais os artistas que gravaram em todos os estúdios
 SELECT A.stageName, count(DISTINCT RS.studio) AS numStudios
 FROM Artist A, ArtistInSession AIS, RecordingSession RS, RecordingStudio RT
 WHERE

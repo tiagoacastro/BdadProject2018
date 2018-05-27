@@ -105,10 +105,10 @@ INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (9, '19873-06-21', 15, 50, 19, NULL);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (10, '1976-06-21', 15, 50, 20, NULL);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (11, '1988-06-21', 15, 50, NULL, 1);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (12, '1984-06-21', 15, 50, NULL, 2);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (12, '2015-06-21', 15, 50, NULL, 2);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (13, '1990-06-21', 15, 50, NULL, 3);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (14, '1991-06-21', 15, 50, NULL, 4);
-INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (15, '1932-06-21', 15, 50, NULL, 5);
+INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (15, '2015-06-21', 15, 50, NULL, 5);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (16, '1960-06-21', 15, 50, NULL, 6);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (17, '1970-06-21', 15, 50, NULL, 7);
 INSERT INTO Contract (id, dateOfSignature, duration, royalties, producer, artist) VALUES (18, '1999-06-21', 15, 50, NULL, 8);

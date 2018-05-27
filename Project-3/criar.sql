@@ -47,8 +47,7 @@ CREATE TABLE Contract (
     duration    INTEGER NOT NULL CHECK(duration < 20),
     royalties    INTEGER NOT NULL,
     producer    INTEGER REFERENCES Producer (id) ON DELETE CASCADE,
-    artist    INTEGER REFERENCES Artist (id) ON DELETE CASCADE,
-    CHECK (producer NOT NULL or artist NOT NULL)
+    artist    INTEGER REFERENCES Artist (id) ON DELETE CASCADE
 );
 
 -- RecordingStudio
