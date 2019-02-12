@@ -1,6 +1,6 @@
 # FEUP-BDAD
 
-### Project Infos
+### Project Info
 * **Date:** 2nd Year, 2nd Semester, 2017/2018
 * **Topic:** Data base conceptualization for a record company
 * **Subject:** Bases de Dados (BDAD) | Data Bases
